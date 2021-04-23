@@ -1,0 +1,7 @@
+#on linux terminal write:
+#crontab -e
+#then add the below line:
+
+0 0 * * * /path_to_bash-script_Schedular.sh
+
+#then CTRL+o to save the crontab, then CTRL+x
