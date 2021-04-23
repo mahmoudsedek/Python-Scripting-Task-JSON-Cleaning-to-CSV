@@ -1,6 +1,7 @@
 #on linux terminal write:
 #crontab -e
 #then add the below line:
+#to be scheduled automatically at midnight
 
 0 0 * * * /path_to_bash-script_Schedular.sh
 
