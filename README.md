@@ -3,7 +3,8 @@ Automated (using crontab) Python script to handle duplicate JSON files in direct
 
 script can handle if directory is empty as well
 
-used library like: time, subprocess , pandas, pathlib, os, json, json_normalize
+used libraries: time, subprocess , pandas, pathlib, os, json, json_normalize
+and a small #bash script
 
 #Don't forget to change the pathes inside the Schedular.sh and inside you crontab on your linux system
 #also the path for your JSON file's directory and the target directory in which you want to put you final CSV files
